@@ -1,0 +1,21 @@
+# Raw Kaggle CSVs (download separately from Kaggle)
+stores.csv
+features.csv
+sales.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Extracted outputs
+*.png
