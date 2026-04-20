@@ -1,4 +1,4 @@
-# Generated data (regenerate with generate_synthetic_data.ipynb)
+# Raw Kaggle CSVs (download separately from Kaggle)
 stores.csv
 features.csv
 sales.csv
@@ -17,6 +17,5 @@ env/
 .vscode/
 .idea/
 
-# Output artifacts
+# Extracted outputs
 *.png
-!docs/*.png
