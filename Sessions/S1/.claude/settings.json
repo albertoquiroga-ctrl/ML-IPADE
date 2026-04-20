@@ -19,7 +19,11 @@
       "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=\"C:\\\\\\\\Users\\\\\\\\betoq\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\store10_analysis.pdf\" \"file:///c:/Users/betoq/OneDrive/Documentos/GitHub/ML-IPADE/Sessions/S1/store10_analysis.html\")",
       "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless=new --disable-gpu --no-sandbox --print-to-pdf=\"C:\\\\\\\\Users\\\\\\\\betoq\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\out.pdf\" \"file:///c:/Users/betoq/OneDrive/Documentos/GitHub/ML-IPADE/Sessions/S1/store10_analysis.html\")",
       "Bash(echo \"---exit=$?\")",
-      "Bash(python _export_pdf.py)"
+      "Bash(python _export_pdf.py)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(python -m pip show scikit-learn)",
+      "Bash(python -m pip install scikit-learn)",
+      "Bash(python -c \"from sklearn.cluster import KMeans; from sklearn.preprocessing import StandardScaler; print\\('OK'\\)\")"
     ]
   }
 }
