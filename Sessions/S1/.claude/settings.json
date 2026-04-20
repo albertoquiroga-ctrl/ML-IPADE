@@ -23,7 +23,8 @@
       "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
       "Bash(python -m pip show scikit-learn)",
       "Bash(python -m pip install scikit-learn)",
-      "Bash(python -c \"from sklearn.cluster import KMeans; from sklearn.preprocessing import StandardScaler; print\\('OK'\\)\")"
+      "Bash(python -c \"from sklearn.cluster import KMeans; from sklearn.preprocessing import StandardScaler; print\\('OK'\\)\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute store10_eda.ipynb --output store10_eda.ipynb)"
     ]
   }
 }
