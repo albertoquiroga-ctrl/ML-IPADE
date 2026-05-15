@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('Sessions/S6/CPS_income_drivers.ipynb'\\)\\); [print\\(f'--- CELL {i} [{c[\\\\\"cell_type\\\\\"]}] ---\\\\n' + ''.join\\(c['source']\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('Sessions/S6/CPS_income_drivers.ipynb',encoding='utf-8'\\)\\); [print\\(f'--- CELL {i} [{c[\\\\\"cell_type\\\\\"]}] ---\\\\n' + ''.join\\(c['source']\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
